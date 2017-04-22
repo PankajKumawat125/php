@@ -1,0 +1,85 @@
+form {
+    display: inline;
+}
+body {
+    background: #666; padding: 0em;
+} 
+h1 {
+    position: none;
+    font-size: 90px;
+    margin-top: 0;
+    text-shadow: 10px 3px 10px #292929;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 0px white;
+} 
+h1 a{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute; 
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}     
+h1 a:hover {
+    color: #185a50;
+} 
+h1:after {
+    color: #dbdbdb;
+    content : attr(data-title);
+}     
+body {
+    background-image: url(/images/bgp14.jpg);            
+    background-size: 100%;
+    background-origin: content;
+    background-repeat: repeat;
+}
+#menu {
+    /*Styling the menu width and height*/
+    list-style:circle;
+    margin:10px auto 0px auto;
+    width:95%;
+    height:45px;
+    padding: 0px 20px 0px 20px;
+
+    /* Creating the curved corner of the border*/
+    border-radius:50px;
+
+    /*Styling the background with fading effect*/
+
+    background:#463E3F;
+
+    /*Making the shadow effect into the menu bar */
+    box-shadow: inset 1px 1px 10px #FFFFFF;
+    border:3px solid #000;
+
+
+}
+#menu li /*Styling the li part of the menu*/
+{
+    float:left;
+    padding:4px 10px 4px 10px;
+    display: block;
+    position:relative;
+    text-align:center;
+    margin-right:30px;
+    margin-top:7px;
+    border:none;
+    /*color:#CCCCCC;*/
+
+}
+
+#menu li a /*Styling the link part of the menu li*/
+{
+    text-decoration:underline;
+    color: #5F9EA0;
+    font-size: 20px;
+}
+#menu li:hover a /*Styling the link part of the menu li in hover state*/
+{
+    color:#FFF;
+    text-shadow:1px 1px 10px #CCC;
+}
+td{
+    font-family:times new roman;
+    color:#BCC6CC;
+    font-size:15pt;
+}
+

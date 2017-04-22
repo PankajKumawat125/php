@@ -1,0 +1,71 @@
+<?php
+session_start();
+if(!isset($_SESSION['sess_user_id']) || (trim($_SESSION['sess_user_id']) == ''))
+	{
+		include 'homepage.php';
+		exit();
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="/images/od1.ico" />
+<title>OurDrive | Edit Profile</title>
+<style>
+<?php
+include 'css.css';
+?>
+</style>
+</head>
+<body>
+<center>
+<h1 data-title="Welcome To OurDrive" style="margin-bottom:0;"> <a href="#">Welcome To OurDrive</a></h1></center>
+<hr>
+<ul id="menu">
+<li><a href="/php/aMHomepage.php"title="Home"><small>Home</small></a></li>
+<li><a href="/php/reset.php" title="Edit Your Profile "><small>Edit Profile</small></a></li>
+<li><a href="/php/aflogin.php"title="Your Files"><small>Your Stuff</small></a></li>
+<li><a href="/php/aoverview1.php" title="Overview"><small>Overview</small></a></li>
+<li><a href="/php/aContactUs (2).php" title="Contact Us"><small>Contact Us</small></a></li>
+<li><a href="/php/aAboutus.php" title="About Us"><small>About Us</small></a></li>
+<li><a href="/php/chat.html"><small>chat</small></a></li>
+<li><a href="/php/homepage.php"title="Logout"><small>Logout</small></a></li>
+</ul><hr>
+
+<center>
+<form method="POST" action="reset1.php"> 
+<fieldset style="width:0%; align:right" align="left">
+<legend style="color:red;font-weight:bold" align="left"><font face="timesnew roman" color="#5F9EA0" size=5><u>
+Edit Your Profile</u> :</font>
+</legend>
+<table width="450" height="250" border="0" align="center" cellpadding="2" cellspacing="5" style="background-color:#463E3F;">
+		<tr><td width="180"><div align="left">First Name:</div></td>
+		<td width="177"><?php echo $_SESSION['sess_fname'] ?></td></tr>
+  
+		<tr><td><div align="left">Last Name:</div></td>
+		<td><?php echo $_SESSION['sess_lname'] ?></td></tr>
+
+		<tr><td><div align="left">Username:</div></td>
+		<td><?php echo $_SESSION['sess_uname'] ?></td></tr>
+		
+		<tr><td><div align="left">E-mail:</div></td>
+		<td><?php echo $_SESSION['sess_email'] ?></td></tr>
+		
+		<tr><td width="116"><div align="left">Date Of Birth:</div></td>
+		<td width="177"><?php echo $_SESSION['sess_day']; ?>-<?php echo$_SESSION['sess_month']; ?>-<?php echo $_SESSION['sess_year'];?></td></tr>
+        <tr><td><div align="left">Contact:</div></td>   	
+		<td><?php echo $_SESSION['sess_contact'] ?></td></tr>
+		<tr><td><div align="left">Gender:</div></td>
+		<td><?php echo $_SESSION['sess_gender']; ?></td></tr>
+		<tr><td><div align="left"></div></td>
+		<tr><td><div align="left"></div></td>
+		<tr><td></td><td>
+		<tr><td></td><td><input type="submit" name="submit" value="Submit" width="100" height="40"></td></tr><tr><td><hr></td><td><hr></td></tr>
+		<tr><td></td><td><a href="/php/reset.php"><input type="submit" name="submit" value="Edit Again" width="100" height="40"></td></tr><tr><td><hr></td><td><hr></td></tr>
+        </table>
+		</fieldset>
+		</center>
+		
+        </form>
+		</body>
+		</html>

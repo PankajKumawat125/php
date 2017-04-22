@@ -1,0 +1,55 @@
+<?php
+include('lock.php');
+?>
+
+<!DOCTYPE html>
+    <head>
+        <link rel="shortcut icon" href="/images/od1.ico" />
+        <title>OurDrive | Overview</title>
+        <style>
+            <?php include 'css.css'; ?>
+        </style>
+    </head>
+    <body>
+    <center>
+        <h1 data-title="Welcome To OurDrive" style="margin-bottom:0;"><a href="aMHomepage.php">Welcome To OurDrive</a></h1></center>
+    <hr>
+    <ul id="menu">
+        <li><a href="/php/aMHomepage.php"title="Home"><small>Home</small></a></li>
+        <li><a href="/php/reset.php" title="Edit Your Profile "><small>Edit Profile</small></a></li>
+        <li><a href="/php/aflogina.php"title="Your Files"><small>Your Stuff</small></a></li>
+        <li><a href="/php/aoverview1.php" title="Overview"><small>Overview</small></a></li>
+        <li><a href="/php/aContactUs (2).php" title="Contact Us"><small>Contact Us</small></a></li>
+        <li><a href="/php/aAboutus.php" title="About Us"><small>About Us</small></a></li>
+        <li><a href="/php/homepage.php"title="Logout"><small>Logout</small></a></li>
+    </ul><hr><br>
+    <div style="width:15%;float:left;"><img src="/images/image_gallery.png"></div>
+    <div id="content" style="height:430px;width:33%;float:left;">
+        <FONT COLOR="#5F9EA0" SIZE=6><b>Upload Files:-</b></FONT><br>
+        <B><font size="5"color="silver">
+            OurDrive allows us to Upload Files of any type for Example pdf file,doc file,ppt file,exe File Formats its very simple and easy to Upload Files .Even very basic user can Upload File. To Upload user just need to Signup or Register which very simple and convenient.<br><font size=3>Click here to upload file 
+            <a href="aflogina.php" title="Upload" ><FONT COLOR="#5F9EA0"><b><input type = "button" name="upload" value="Upload" /></b></FONT></a>
+
+            </font><B></div>
+                <div style="width:15%;float:left;"><img src="/images/Dropbox Classic Arrow.png"></div>
+                <div id="content" style="height:430px;width:37%;float:left;">
+                    <FONT COLOR="#5F9EA0" SIZE=6><b>Download Files:-</b></FONT><br>
+                    <B><font size="5%"color="silver">
+                        As we upload our files we also need to download it again from the site (OurDrive). our site provide with the download option very easily just in one click your files are started downloading. With the help of Downloading option it makes our file available remotely everywhere just the need is of an internet enabled device and an internet connection.<br><font size=3>Click here to Download file 
+                        <a href="aflogina.php"title="Download" ><FONT COLOR="#5F9EA0"><b><input type = "button" name="Download" value="Download" /></b></FONT></a>
+
+                        </font><B></div>
+                           
+                            <div style="width:15%;float:left;"><img src="/images/Picture1.png"></div>
+                            <div id="content" style="height:400px;width:37%;float:left;"><FONT COLOR="#5F9EA0" SIZE=6><b>MultiMedia View:-</b></FONT><br>
+                                <B><font size="5%"color="silver">
+
+                                    OurDrive provides us with the online view of our multimedia files . No need of downloading it then watching it offline it makes us to view just one click on the preview button and its all done. for eg you have uploaded any video file and you want to watch it online without wasting time in downloading then its possible by just clicking preview button and your started playing.<br><font size=3>To view multimedia files click here 
+                                    <a href="aflogina.php"title="Multimedia" ><FONT COLOR="#5F9EA0"><b><input type = "button" name="Multimediaview" value="Multimedia View" /></b></FONT></a>
+
+                            </div>
+                            </font>
+                           
+                                </body>
+
+                                </html>
