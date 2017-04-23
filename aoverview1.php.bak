@@ -4,7 +4,7 @@ include('lock.php');
 
 <!DOCTYPE html>
     <head>
-        <link rel="shortcut icon" href="/images/od1.ico" />
+        <link rel="shortcut icon" href="/php/php/images/od1.ico" />
         <title>OurDrive | Overview</title>
         <style>
             <?php include 'css.css'; ?>
@@ -23,7 +23,7 @@ include('lock.php');
         <li><a href="/php/aAboutus.php" title="About Us"><small>About Us</small></a></li>
         <li><a href="/php/homepage.php"title="Logout"><small>Logout</small></a></li>
     </ul><hr><br>
-    <div style="width:15%;float:left;"><img src="/images/image_gallery.png"></div>
+    <div style="width:15%;float:left;"><img src="/php/php/images/image_gallery.png"></div>
     <div id="content" style="height:430px;width:33%;float:left;">
         <FONT COLOR="#5F9EA0" SIZE=6><b>Upload Files:-</b></FONT><br>
         <B><font size="5"color="silver">
@@ -31,7 +31,7 @@ include('lock.php');
             <a href="aflogina.php" title="Upload" ><FONT COLOR="#5F9EA0"><b><input type = "button" name="upload" value="Upload" /></b></FONT></a>
 
             </font><B></div>
-                <div style="width:15%;float:left;"><img src="/images/Dropbox Classic Arrow.png"></div>
+                <div style="width:15%;float:left;"><img src="/php/php/images/Dropbox Classic Arrow.png"></div>
                 <div id="content" style="height:430px;width:37%;float:left;">
                     <FONT COLOR="#5F9EA0" SIZE=6><b>Download Files:-</b></FONT><br>
                     <B><font size="5%"color="silver">
@@ -40,7 +40,7 @@ include('lock.php');
 
                         </font><B></div>
                            
-                            <div style="width:15%;float:left;"><img src="/images/Picture1.png"></div>
+                            <div style="width:15%;float:left;"><img src="/php/php/images/Picture1.png"></div>
                             <div id="content" style="height:400px;width:37%;float:left;"><FONT COLOR="#5F9EA0" SIZE=6><b>MultiMedia View:-</b></FONT><br>
                                 <B><font size="5%"color="silver">
 

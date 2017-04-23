@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <link rel="shortcut icon" href="/images/od1.ico" />
+        <link rel="shortcut icon" href="/php/images/od1.ico" />
         <title>OurDrive</title>
         <style> 
 <?php include'css.css'; ?>

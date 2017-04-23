@@ -9,7 +9,7 @@ if (isset($_SESSION['sess_user_id']) == '') {
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="/images/od1.ico" />
+        <link rel="shortcut icon" href="/php/php/images/od1.ico" />
         <title>OurDrive</title>
         <style>
             <?php include 'css.css'; ?>
@@ -158,7 +158,7 @@ if (isset($_SESSION['sess_user_id']) == '') {
 								if($row['uname'] != $_SESSION['login_user']){
 							?>
                                 
-                             <form name="requestform" action="/php/SMS/sms.php" method="post">
+                             <form name="requestform" action="/php/sms.php" method="post">
 							 <input type="hidden" name="rno" type="hidden" size="40" value="
 							 <?php
 								 $query1 = "select * from signup where uname = '".$row['uname']."'";

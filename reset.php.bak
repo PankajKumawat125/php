@@ -11,7 +11,7 @@ if (isset($_SESSION['sess_user_id']) == '') {
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="/images/od1.ico" />
+        <link rel="shortcut icon" href="/php/php/images/od1.ico" />
         <title>OurDrive | Edit Profile</title>
         <style>
             <?php
@@ -30,7 +30,6 @@ if (isset($_SESSION['sess_user_id']) == '') {
         <li><a href="/php/aoverview1.php" title="Overview"><small>Overview</small></a></li>
         <li><a href="/php/aContactUs (2).php" title="Contact Us"><small>Contact Us</small></a></li>
         <li><a href="/php/aAboutus.php" title="About Us"><small>About Us</small></a></li>
-        <li><a href="/php/chat.html"><small>chat</small></a></li>
         <li><a href="/php/homepage.php"title="Logout"><small>Logout</small></a></li>
     </ul><hr>
 

@@ -10,7 +10,7 @@
 <html>
     <!DOCTYPE html>
         <head>
-            <link rel="shortcut icon" href="/images/od1.ico" />
+            <link rel="shortcut icon" href="/php/php/images/od1.ico" />
             <title>OurDrive | ContactUs</title>
             <style>
 		<?php include 'css.css'; ?>

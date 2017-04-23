@@ -155,7 +155,7 @@ if (isset($_POST['Upload'])) {
 		"torrent",
 		"yps",
     );
-    echo '<pre>'; print_r($allowedExts); 
+   // echo '<pre>'; print_r($allowedExts); 
     $extension = explode(".", $_FILES["uploadedfile"]["name"]);
     $extension = end($extension);
     //print_r($extension); 

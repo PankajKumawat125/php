@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <link rel="shortcut icon" href="/images/od1.ico" />
+        <link rel="shortcut icon" href="/php/images/od1.ico" />
         <title>OurDrive</title>
         <style> 
 <?php include'css.css'; ?>
@@ -41,7 +41,7 @@
             }     
             body {
                 background-color : transparent;
-                background-image: url(/images/bg3.jpg); 
+                background-image: url(/php/images/bg3.jpg); 
                 background-position: none;
                 background-size: 100%;
                 background-origin: content;
