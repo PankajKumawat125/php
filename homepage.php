@@ -46,7 +46,7 @@
                                 </tr>
                             </table>
                         </form>
-                        <form name="signup" action="signup.php" method="post">
+                        <form name="signup" action="Signup.php" method="post">
                             <table>
                                 <tr>
                                     <td width="174"><div align="left">Not a member :</div></td>
