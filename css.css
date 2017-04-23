@@ -32,7 +32,7 @@ h1:after {
     content : attr(data-title);
 }     
 body {
-    background-image: url(/images/bg3.jpg);            
+    background-image: url(/php/images/bg3.jpg);            
     background-size: 100%;
     background-origin: content;
     background-repeat: repeat;
